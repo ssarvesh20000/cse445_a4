@@ -13,3 +13,14 @@
     </Address>
   </Hotel>
   <Hotel>
+    <Name>Hilton</Name>
+    <Phone>480-123-4567</Phone>
+    <Address>
+      <Number>123</Number>
+      <Street>Main St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85001</Zip>
+    </Address>
+  </Hotel>
+</Hotels>

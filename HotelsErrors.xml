@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Hotel> <!-- Wrong root element -->
+  <Hotel> <!-- Missing required Rating attribute -->
+    <Name>Marriott</Name>
+    <Address> <!-- Missing closing tag -->
+      <Number>123</Number>
+      <Street>Main St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85001</Zip>
+    <!-- No closing tag for Address -->
+  </Hotel>
+  <Hotel Rating="4.5">
+    <Name>DoubleTree</Name>
+    <Name>Duplicate Name</Name> <!-- Two Name elements -->
+    <!-- Missing Phone element -->
+    <Address NearestAirport="Mesa Airport">
+      <Number>321</Number>
+      <Street>Sunset Blvd</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85201</Zip>
+    </Address>
+  </Hotel>
+</Hotel>
